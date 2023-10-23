@@ -1,0 +1,740 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------------------HEADER-----------------------------------------------*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+
+.menu{
+    display: flex;
+    margin-left: 550px;
+}
+
+.menu a{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration-line:underline;
+}
+
+.marca {
+    font-size: 40px;
+    color: black;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    margin-top: 10px;
+    padding: auto;
+}
+
+.img img{
+    margin:0;
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+
+@media all and (max-width: 480px){
+
+    .logo{
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .marca{
+        font-size: 50px;
+    }
+
+    .img img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .menu{
+        margin-right: 10px;
+        margin-left: 180px;
+
+    }
+
+    .menu a{
+        margin: 15px;
+    }
+}
+
+
+/*---------------------------------------------SECCION 1---------------------------------------------*/
+
+.seccion1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-seccion1{
+    display: flex;
+}
+
+.texto{
+    display: flex;
+}
+
+
+.texto h1 {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 100px;
+    margin: 5px;
+}
+
+.v-line{
+    display: flex;
+    height: 250px;
+    margin: 0 50px;
+}
+
+.line {
+    border-left:solid gray 2px;
+    height: 65%;
+    left: 50%;
+    margin-top: 45px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    align-items: justify;
+    justify-content: center;
+}
+
+.h2-titulo h2{
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+}
+
+.texto-h2 p {
+    font-size: 20px;
+    color: gray;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+@media all and (max-width: 480px){
+
+    .seccion1{
+        margin: 0 200px;
+        width: 450px;
+    }
+
+    .container-seccion1{
+        margin-right: 60px;
+    }
+
+    .texto h1{
+        font-size: 50px;}
+
+    .v-line{
+        height: 150px;
+    }
+
+    .line{
+        margin-top: 30px;
+    }
+
+    .h2-titulo h2{
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .texto-h2 p{
+        margin-left: 0px;
+        width: 450px;
+        
+    }
+}
+
+/*---------------------------------------------SECCION 2---------------------------------------------*/
+
+.seccion2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contenedor-imagen{
+    display: flex;
+    height: 500px;
+    width: 1272px;
+    margin-top: 20px;
+    margin-left: 250px;
+    position: relative;
+}
+
+
+.banner{
+    height: 100%;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.flecha-izq{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px 55px;
+    box-shadow: none;
+}
+
+.flecha-der{
+    color: rgba(128, 128, 128, 0.37);
+    font-size: 30px;
+    background-color: white;
+    padding: 10px 55px;
+    border-color: white;
+    box-shadow: none;
+}
+
+
+@media all and (max-width: 480px){
+
+    .seccion2{
+        width: 700px;
+        margin-left: 50px;
+    }
+
+    .contenedor-imagen{
+        height: 300px;
+        width: 800px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    .flecha-izq{
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+
+    .flecha-der{
+        font-size: 20px;
+        padding: 10px 40px;
+    }
+}
+
+/*---------------------------------------------SECCION 3---------------------------------------------*/
+
+.seccion3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-right: 380px;
+}
+
+.imagen-izq{
+    height: 600px;
+    display: flex;
+    position: relative;
+}
+
+.texto-der{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    position: relative;
+    height: 600px;
+}
+
+.right h2{
+    font-size: 40px;
+    margin: 0;
+    margin-left: 25px;
+}
+
+.parrafo-der{
+    color: gray;
+    margin: 40px 25px;
+}
+
+.comillas{
+    margin: 50px 0;
+    padding-bottom: auto;
+    margin-left: 25px;
+}
+
+.button-izq-sec3{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    box-shadow: none;
+}
+
+.flecha-izq3{
+    color: gray;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px 55px;
+    box-shadow: none;
+    border-color: white;
+}
+
+.button-der-sec3{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.flecha-der3{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 10px 55px;
+    box-shadow: none;
+}
+
+
+@media all and (min-width: 320px) and (max-width: 480px){
+
+    .seccion3{
+        margin-left: 100px;
+        width: 580px;
+    }
+
+    .imagen-izq{
+        height: 450px;
+        width: 300px;
+    }
+
+    .imagen-izq img{
+        height: 450px;
+        width: 300px;
+
+    }
+
+    .texto-der{
+        height: 450px;
+        width: 280px;
+    }
+
+    .right h2{
+        font-size: 25px;
+    }
+
+    .parrafo-der{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .comillas{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .flecha-der3{
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+
+    .flecha-izq3{
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+}
+
+/*---------------------------------------------SECCION 4---------------------------------------------*/
+
+.seccion4{
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    height: 800px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 300px;
+    position: relative;
+    width: 800px;
+}
+
+.texto-izq4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-izq4 h2{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.texto-parrafo{
+    color: gray;
+    margin: 5px 0;
+}
+
+.texto-izq4 p{
+    margin: 5px;
+
+}
+
+.texto-der4{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: justify;
+    width: 200px;
+    right: 0;
+    bottom: 0;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.texto-der4 p{
+    color: gray;
+}
+
+.titulo-der4{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.imagen3{
+    height: 430px;
+    width: 380px;
+}
+
+.imagen4{
+    width: 455px;
+    height: 370px;
+}
+
+@media all and (min-width: 320px) and (max-width: 480px){
+    .seccion4{
+        margin-left: 160px;
+    }
+
+    .imagen3{
+        height: 300px;
+        width: 250px;
+    }
+
+    .imagen4{
+        height: 300px;
+        width: 250px;
+    }
+
+    .grilla{
+        margin-left: 500px;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 400px 400px;
+        margin-right: 80px;
+    }
+}
+
+/*---------------------------------------------SECCION 5---------------------------------------------*/
+
+.seccion5{
+    display: flex;
+    background-color: #FAFBFF;
+    margin-top: 150px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil{
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+ 
+color: black;
+font-size: 30px;
+}
+
+
+p{
+    color: gray;
+    font-size: 15px;
+ 
+}
+
+
+.perfil{
+display: flex;
+}
+
+
+.foto-perfil{
+    float: right;
+    background-color: rgba(17, 16, 16, 0.863);
+    margin: 0 20px 5px 0;
+}
+
+.foto-perfil img{
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    display: block;
+    position: relative;
+    margin: 15px -6px -6px 15px;
+}
+
+.descripcion{
+    width: 580px;
+}
+
+.parrafo-descripcion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+}
+
+@media all and (min-width: 320px) and (max-width: 480px){
+    .seccion5{
+        width: 800px;
+    }
+}
+
+/*-------------------------SECCION 6---------------------------*/
+.seccion6{
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .caja-1, .caja-1sub {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 35px;
+    }
+    
+    .texto-1{
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    }
+    
+    .flecha11{
+    
+        background-color: rgb(236, 228, 228);
+        color:black;
+        font-size: 20px;
+        height: 50px;
+        width: 100px;
+        border: none;
+       margin-top: 160px;
+    margin-left: 45px;
+
+    }
+    
+    .flecha22{
+        background-color: black;
+        color:white;
+        font-size: 20px;
+        height: 50px;
+        width: 100px;
+    margin-top: 100px;
+margin-left: 5px;
+}
+    
+
+    .cajas{
+    margin-left: 300px;
+    }
+    
+    .caja-2, .caja-2sub{
+        margin-top: 45px;
+    font-size: 25px;
+    
+    }
+    
+    .texto-2{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-top: 60px;
+     color: gray;
+    }
+    
+    .imagenes, .imagen-caja2, .imagen-caja3{
+    height: 150px;
+    width: 150px;
+    }
+    
+    .imagen-caja2{
+    margin-left: 250px;
+    margin-top: 50px;
+    }
+    
+    .caja-3sub{
+    margin-top: 70px;
+    font-size: 25px;
+    }
+    
+    .texto-3{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: gray;
+    }
+    
+    .imagen-caja3{
+    margin-left: 250px ;
+    margin-top: 60px;
+    }
+
+
+@media all and (min-width: 320px) and (max-width: 480px){
+    .seccion6{
+        width: 800px;
+    }
+
+    .caja-1sub, .caja-2sub, .caja-3sub{
+font-size: 18px;
+    }
+
+ .texto-2, .texto-3{
+display: none;
+    }
+
+    .flecha11, .flecha22 {
+margin-top: 15px;
+    }
+
+.flecha22{
+    margin-bottom: 10px;
+ margin-left: 140px;
+}
+
+
+}
+    /*----------------------------FOOTER-------------------------*/
+
+    .pie-de-pag{
+        display: flex;
+        flex-direction: row;
+    background-color: rgb(51, 50, 50);
+    margin-top: 50px;
+    padding: auto;
+    height: 250px;
+    width: 1300px;
+    }
+    
+    .img-footer{
+    margin-top: 80px;
+    margin-left: 150px;
+    
+    }
+    
+    .imagen-footer{
+        margin-left: 10px;
+    width: 40px; 
+    height: 40px;
+    
+    }
+    
+    .name, .marca2{
+        margin-top: 40px;
+    margin-left: 30px ;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: white;
+    }
+    
+    .caja1{
+    margin-left: 180px;
+    margin-top: 80px;
+    padding: 5px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    }
+    
+    .caja2{
+    margin-left: 200px;
+    margin-top: 80px;
+    color: gray;
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+    }
+    
+    .caja3{
+    margin-left: 190px;
+    margin-top: 80px;
+    color: gray;
+    }
+    
+    .email{
+    height: 30px;
+    background-color: rgb(69, 63, 63);
+    color: gray;
+    border: none;
+    padding: 5px;
+    }
+    
+    .send{
+    height: 40px;
+    background-color:rgb(69, 63, 63) ;
+    color: white;
+    border: none;
+    padding: 5px;
+    }
+    
+    i{
+    color: white;
+    margin-top: 5px;
+    margin-right: 10px;
+    }
+
+    @media all and (min-width: 320px) and (max-width: 480px){
+.pie-de-pag{
+            width: 800px;
+      
+}
+ 
+.img-footer, .name, .caja1, .caja2, .caja3{
+margin-left: 20px;
+}
+  
+}
+
